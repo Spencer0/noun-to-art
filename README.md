@@ -1,3 +1,14 @@
+# Overview
+Noun-to-art (NTA)'s goal is to take in a noun from the user and create art.
+
+# Usage
+- Print output: python asciify.py <Phrase>
+- Save output: python asciify.py <Phrase> > res.txt
+
+If the phrase has multiple matches, it will return a disambiguation list. Otherwise it will print ascii art to the console.
+
+
+### Examples
 python asciify.py Longbow
 
 ```
